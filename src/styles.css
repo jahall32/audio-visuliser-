@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial;
+  color: black;
+  background: black;
+}
+
+#root:focus {
+  outline: none;
+}
+.main {
+  color: white;
+  width: 400px;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  right: 500;
+}
+
+
+
